@@ -1,122 +1,1873 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>WBM Kitchen & Coffee Menu</title>
-
-  <!-- Structured data for Google -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Menu",
-    "name": "WBM Kitchen & Coffee Menu",
-    "hasMenuSection": [
-      {
-        "@type": "MenuSection",
-        "name": "Coffee & Beverages",
-        "hasMenuItem": [
-          {
-            "@type": "MenuItem",
-            "name": "Cappuccino",
-            "description": "Espresso with steamed milk foam",
-            "offers": {
-              "@type": "Offer",
-              "price": "25.000",
-              "priceCurrency": "IDR"
-            }
-          },
-          {
-            "@type": "MenuItem",
-            "name": "Latte",
-            "description": "Espresso with steamed milk and a touch of foam",
-            "offers": {
-              "@type": "Offer",
-              "price": "27.000",
-              "priceCurrency": "IDR"
-            }
+{
+  "@context": "https://schema.org",
+  "@type": "Menu",
+  "name": "WBM Kitchen & Coffee Menu",
+  "hasMenuSection": [
+    {
+      "@type": "MenuSection",
+      "name": "Beer and Friend",
+      "hasMenuItem": [
+        {
+          "@type": "MenuItem",
+          "name": "Lemon Beer",
+          "offers": {
+            "@type": "Offer",
+            "price": "28000",
+            "priceCurrency": "IDR"
           }
-        ]
-      },
-      {
-        "@type": "MenuSection",
-        "name": "Snacks & Pastries",
-        "hasMenuItem": [
-          {
-            "@type": "MenuItem",
-            "name": "Croissant",
-            "description": "Buttery flaky pastry baked fresh daily",
-            "offers": {
-              "@type": "Offer",
-              "price": "20.000",
-              "priceCurrency": "IDR"
-            }
-          },
-          {
-            "@type": "MenuItem",
-            "name": "French Fries",
-            "description": "Crispy golden fries with special seasoning",
-            "offers": {
-              "@type": "Offer",
-              "price": "18.000",
-              "priceCurrency": "IDR"
-            }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Soda Water",
+          "offers": {
+            "@type": "Offer",
+            "price": "11000",
+            "priceCurrency": "IDR"
           }
-        ]
-      }
-    ]
-  }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Fresh Coconut",
+          "offers": {
+            "@type": "Offer",
+            "price": "27000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Oatmilk",
+          "offers": {
+            "@type": "Offer",
+            "price": "15000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Amertaning Whiskey",
+          "offers": {
+            "@type": "Offer",
+            "price": "85000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Mineral Water",
+          "offers": {
+            "@type": "Offer",
+            "price": "7000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Coca Cola",
+          "offers": {
+            "@type": "Offer",
+            "price": "12000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Beer Bucket",
+          "offers": {
+            "@type": "Offer",
+            "price": "110000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Small Beer",
+          "offers": {
+            "@type": "Offer",
+            "price": "25000",
+            "priceCurrency": "IDR"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "MenuSection",
+      "name": "Bliss",
+      "hasMenuItem": [
+        {
+          "@type": "MenuItem",
+          "name": "Red Summer",
+          "offers": {
+            "@type": "Offer",
+            "price": "22000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Green Forest",
+          "offers": {
+            "@type": "Offer",
+            "price": "22000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Sunset Queen",
+          "offers": {
+            "@type": "Offer",
+            "price": "19000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Spring Rain",
+          "offers": {
+            "@type": "Offer",
+            "price": "19000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Orange Squash",
+          "offers": {
+            "@type": "Offer",
+            "price": "20000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Lemon Squash",
+          "offers": {
+            "@type": "Offer",
+            "price": "20000",
+            "priceCurrency": "IDR"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "MenuSection",
+      "name": "Breakfast",
+      "hasMenuItem": [
+        {
+          "@type": "MenuItem",
+          "name": "Pancake",
+          "offers": {
+            "@type": "Offer",
+            "price": "35000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Croissant Sandwich",
+          "offers": {
+            "@type": "Offer",
+            "price": "46000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Grano Milk",
+          "offers": {
+            "@type": "Offer",
+            "price": "42000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Smoothie Bowl",
+          "offers": {
+            "@type": "Offer",
+            "price": "40000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Complete Morning",
+          "offers": {
+            "@type": "Offer",
+            "price": "56000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Egg Your Way",
+          "offers": {
+            "@type": "Offer",
+            "price": "35000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Paket Mie Goreng Breakfast",
+          "offers": {
+            "@type": "Offer",
+            "price": "35000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Paket Nasi Goreng Breakfast",
+          "offers": {
+            "@type": "Offer",
+            "price": "35000",
+            "priceCurrency": "IDR"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "MenuSection",
+      "name": "Chinese Cuisine",
+      "hasMenuItem": [
+        {
+          "@type": "MenuItem",
+          "name": "Sate Bumbu Kacang",
+          "offers": {
+            "@type": "Offer",
+            "price": "35000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Sate Plecing Bumbu Pedas",
+          "offers": {
+            "@type": "Offer",
+            "price": "35000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Kuluyuk Pedas WBM",
+          "offers": {
+            "@type": "Offer",
+            "price": "35000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Egg / Telur",
+          "offers": {
+            "@type": "Offer",
+            "price": "5000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Sapo Tahu (Vegan)",
+          "offers": {
+            "@type": "Offer",
+            "price": "32000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Sapo Tahu (Chicken)",
+          "offers": {
+            "@type": "Offer",
+            "price": "35000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Sapo Tahu (Pork)",
+          "offers": {
+            "@type": "Offer",
+            "price": "37000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Sapo Tahu (Seafood)",
+          "offers": {
+            "@type": "Offer",
+            "price": "41000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Ayam Sayur",
+          "offers": {
+            "@type": "Offer",
+            "price": "35000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Udang Asam Manis",
+          "offers": {
+            "@type": "Offer",
+            "price": "42000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Udang Pedas WBM",
+          "offers": {
+            "@type": "Offer",
+            "price": "38000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Koloke",
+          "offers": {
+            "@type": "Offer",
+            "price": "30000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Kolobak",
+          "offers": {
+            "@type": "Offer",
+            "price": "37000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Capcay (Vegan)",
+          "offers": {
+            "@type": "Offer",
+            "price": "22000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Capcay (Chicken)",
+          "offers": {
+            "@type": "Offer",
+            "price": "25000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Capcay (Pork)",
+          "offers": {
+            "@type": "Offer",
+            "price": "27000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Capcay (Seafood)",
+          "offers": {
+            "@type": "Offer",
+            "price": "30000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Bihun Goreng (Vegan)",
+          "offers": {
+            "@type": "Offer",
+            "price": "19000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Bihun Goreng (Chicken)",
+          "offers": {
+            "@type": "Offer",
+            "price": "24000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Bihun Goreng (Pork)",
+          "offers": {
+            "@type": "Offer",
+            "price": "26000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Bihun Goreng (Seafood)",
+          "offers": {
+            "@type": "Offer",
+            "price": "32000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Cah Sawi Hijau (Vegan)",
+          "offers": {
+            "@type": "Offer",
+            "price": "22000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Cah Sawi Hijau (Chicken)",
+          "offers": {
+            "@type": "Offer",
+            "price": "25000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Cah Sawi Hijau (Pork)",
+          "offers": {
+            "@type": "Offer",
+            "price": "27000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Cah Sawi Hijau (Seafood)",
+          "offers": {
+            "@type": "Offer",
+            "price": "30000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Bihun Kuah (Vegan)",
+          "offers": {
+            "@type": "Offer",
+            "price": "19000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Bihun Kuah (Chicken)",
+          "offers": {
+            "@type": "Offer",
+            "price": "24000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Bihun Kuah (Pork)",
+          "offers": {
+            "@type": "Offer",
+            "price": "26000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Bihun Kuah (Seafood)",
+          "offers": {
+            "@type": "Offer",
+            "price": "32000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Mie Kuah (Vegan)",
+          "offers": {
+            "@type": "Offer",
+            "price": "19000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Mie Kuah (Chicken)",
+          "offers": {
+            "@type": "Offer",
+            "price": "24000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Mie Kuah (Pork)",
+          "offers": {
+            "@type": "Offer",
+            "price": "26000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Mie Kuah (Seafood)",
+          "offers": {
+            "@type": "Offer",
+            "price": "32000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Fuyunghay (Vegan)",
+          "offers": {
+            "@type": "Offer",
+            "price": "19000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Fuyunghay (Chicken)",
+          "offers": {
+            "@type": "Offer",
+            "price": "23000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Fuyunghay (Pork)",
+          "offers": {
+            "@type": "Offer",
+            "price": "25000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Fuyunghay (Seafood)",
+          "offers": {
+            "@type": "Offer",
+            "price": "31000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Mie Goreng (Chicken)",
+          "offers": {
+            "@type": "Offer",
+            "price": "24000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Mie Goreng (Pork)",
+          "offers": {
+            "@type": "Offer",
+            "price": "26000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Mie Goreng (Seafood)",
+          "offers": {
+            "@type": "Offer",
+            "price": "32000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Mie Goreng (Vegie)",
+          "offers": {
+            "@type": "Offer",
+            "price": "19000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Nasi Goreng (Chicken)",
+          "offers": {
+            "@type": "Offer",
+            "price": "22000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Nasi Goreng (Pork)",
+          "offers": {
+            "@type": "Offer",
+            "price": "24000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Nasi Goreng (Seafood)",
+          "offers": {
+            "@type": "Offer",
+            "price": "30000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Nasi Goreng (Vegie)",
+          "offers": {
+            "@type": "Offer",
+            "price": "18000",
+            "priceCurrency": "IDR"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "MenuSection",
+      "name": "Coffee Bean Base",
+      "hasMenuItem": [
+        {
+          "@type": "MenuItem",
+          "name": "Es Kopi Pandan Creamy",
+          "offers": {
+            "@type": "Offer",
+            "price": "29000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Es Kopi Susu Gula Aren Creamy",
+          "offers": {
+            "@type": "Offer",
+            "price": "29000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Mocha Brown Sugar (Iced)",
+          "offers": {
+            "@type": "Offer",
+            "price": "27000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Mochaccino (Hot)",
+          "offers": {
+            "@type": "Offer",
+            "price": "25000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Mochaccino (Iced)",
+          "offers": {
+            "@type": "Offer",
+            "price": "27000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Affogato (Iced)",
+          "offers": {
+            "@type": "Offer",
+            "price": "27000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Flat White (Hot)",
+          "offers": {
+            "@type": "Offer",
+            "price": "25000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Long Black (Hot)",
+          "offers": {
+            "@type": "Offer",
+            "price": "20000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Long Black (Iced)",
+          "offers": {
+            "@type": "Offer",
+            "price": "25000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Caramel Macchiato (Iced)",
+          "offers": {
+            "@type": "Offer",
+            "price": "27000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Macchiato (Hot)",
+          "offers": {
+            "@type": "Offer",
+            "price": "20000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Cappuccino (Hot)",
+          "offers": {
+            "@type": "Offer",
+            "price": "23000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Cappuccino (Iced)",
+          "offers": {
+            "@type": "Offer",
+            "price": "25000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Caramel Latte (Hot)",
+          "offers": {
+            "@type": "Offer",
+            "price": "25000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Caramel Latte (Iced)",
+          "offers": {
+            "@type": "Offer",
+            "price": "27000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Hazelnut Latte (Hot)",
+          "offers": {
+            "@type": "Offer",
+            "price": "25000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Hazelnut Latte (Iced)",
+          "offers": {
+            "@type": "Offer",
+            "price": "27000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Vanilla Latte (Hot)",
+          "offers": {
+            "@type": "Offer",
+            "price": "25000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Vanilla Latte (Iced)",
+          "offers": {
+            "@type": "Offer",
+            "price": "27000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Cafe Latte (Hot)",
+          "offers": {
+            "@type": "Offer",
+            "price": "23000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Cafe Latte (Iced)",
+          "offers": {
+            "@type": "Offer",
+            "price": "25000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Americano (Hot)",
+          "offers": {
+            "@type": "Offer",
+            "price": "22000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Americano (Iced)",
+          "offers": {
+            "@type": "Offer",
+            "price": "25000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Espresso (Hot)",
+          "offers": {
+            "@type": "Offer",
+            "price": "20000",
+            "priceCurrency": "IDR"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "MenuSection",
+      "name": "Dessert and Pastry",
+      "hasMenuItem": [
+        {
+          "@type": "MenuItem",
+          "name": "WBM Sweet Toast",
+          "offers": {
+            "@type": "Offer",
+            "price": "23000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Gelato",
+          "offers": {
+            "@type": "Offer",
+            "price": "25000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Choco Lava Croissant",
+          "offers": {
+            "@type": "Offer",
+            "price": "22000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Chocolate Sliced Cake",
+          "offers": {
+            "@type": "Offer",
+            "price": "27000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Butter Dannish Cinnamon",
+          "offers": {
+            "@type": "Offer",
+            "price": "18000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Almond Butter Croissant",
+          "offers": {
+            "@type": "Offer",
+            "price": "22000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Plain Butter Croissant",
+          "offers": {
+            "@type": "Offer",
+            "price": "15000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Fruits Salad",
+          "offers": {
+            "@type": "Offer",
+            "price": "38000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Plain Sliced Fruit",
+          "offers": {
+            "@type": "Offer",
+            "price": "30000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Croissant Ice Cream",
+          "offers": {
+            "@type": "Offer",
+            "price": "26000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Ice Cream Scoop",
+          "offers": {
+            "@type": "Offer",
+            "price": "15000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Pisang Goreng with Ice Cream",
+          "offers": {
+            "@type": "Offer",
+            "price": "30000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Pisang Goreng",
+          "offers": {
+            "@type": "Offer",
+            "price": "22000",
+            "priceCurrency": "IDR"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "MenuSection",
+      "name": "Fruit and Tea Based",
+      "hasMenuItem": [
+        {
+          "@type": "MenuItem",
+          "name": "Orange Juice",
+          "offers": {
+            "@type": "Offer",
+            "price": "20000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Lemon Tea",
+          "offers": {
+            "@type": "Offer",
+            "price": "20000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Strawberry Juice",
+          "offers": {
+            "@type": "Offer",
+            "price": "35000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Lychee Tea",
+          "offers": {
+            "@type": "Offer",
+            "price": "20000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Iced Tea",
+          "offers": {
+            "@type": "Offer",
+            "price": "12000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Hot Tea",
+          "offers": {
+            "@type": "Offer",
+            "price": "12000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Avocado Juice",
+          "offers": {
+            "@type": "Offer",
+            "price": "27000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Dragon Fruit Juice",
+          "offers": {
+            "@type": "Offer",
+            "price": "22000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Pineapple Juice",
+          "offers": {
+            "@type": "Offer",
+            "price": "22000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Melon Juice",
+          "offers": {
+            "@type": "Offer",
+            "price": "22000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Watermelon Juice",
+          "offers": {
+            "@type": "Offer",
+            "price": "22000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Mango Juice",
+          "offers": {
+            "@type": "Offer",
+            "price": "27000",
+            "priceCurrency": "IDR"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "MenuSection",
+      "name": "Non Coffee",
+      "hasMenuItem": [
+        {
+          "@type": "MenuItem",
+          "name": "WBM Pandan Creamy Siffon",
+          "offers": {
+            "@type": "Offer",
+            "price": "35000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Vanilla Milkshake",
+          "offers": {
+            "@type": "Offer",
+            "price": "32000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Taro (Hot)",
+          "offers": {
+            "@type": "Offer",
+            "price": "23000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Taro (Iced)",
+          "offers": {
+            "@type": "Offer",
+            "price": "25000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Strawberry Milkshake",
+          "offers": {
+            "@type": "Offer",
+            "price": "32000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Red Velvet (Hot)",
+          "offers": {
+            "@type": "Offer",
+            "price": "23000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Red Velvet (Iced)",
+          "offers": {
+            "@type": "Offer",
+            "price": "25000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Matcha (Hot)",
+          "offers": {
+            "@type": "Offer",
+            "price": "23000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Matcha (Iced)",
+          "offers": {
+            "@type": "Offer",
+            "price": "25000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Chocolate (Hot)",
+          "offers": {
+            "@type": "Offer",
+            "price": "23000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Chocolate (Iced)",
+          "offers": {
+            "@type": "Offer",
+            "price": "25000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Pandan Creamy Siffon",
+          "offers": {
+            "@type": "Offer",
+            "price": "35000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Salted Caramel Ice",
+          "offers": {
+            "@type": "Offer",
+            "price": "25000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Chocolate Milkshake",
+          "offers": {
+            "@type": "Offer",
+            "price": "32000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Taro Milkshake",
+          "offers": {
+            "@type": "Offer",
+            "price": "32000",
+            "priceCurrency": "IDR"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "MenuSection",
+      "name": "Side Dish",
+      "hasMenuItem": [
+        {
+          "@type": "MenuItem",
+          "name": "Kerupuk",
+          "offers": {
+            "@type": "Offer",
+            "price": "2000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "French Fries (Original)",
+          "offers": {
+            "@type": "Offer",
+            "price": "20000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "French Fries (Cheesy)",
+          "offers": {
+            "@type": "Offer",
+            "price": "28000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Nasi Putih",
+          "offers": {
+            "@type": "Offer",
+            "price": "7000",
+            "priceCurrency": "IDR"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "MenuSection",
+      "name": "Take Away Charge",
+      "hasMenuItem": [
+        {
+          "@type": "MenuItem",
+          "name": "Take Away Charge (Take Away Box Reguler)",
+          "offers": {
+            "@type": "Offer",
+            "price": "1500",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Take Away Charge (Take Away Box Pizza)",
+          "offers": {
+            "@type": "Offer",
+            "price": "3000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Take Away Charge (Large Cup)",
+          "offers": {
+            "@type": "Offer",
+            "price": "2000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Take Away Charge (Hot Cup)",
+          "offers": {
+            "@type": "Offer",
+            "price": "1500",
+            "priceCurrency": "IDR"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "MenuSection",
+      "name": "Western - Bites",
+      "hasMenuItem": [
+        {
+          "@type": "MenuItem",
+          "name": "Spring Roll",
+          "offers": {
+            "@type": "Offer",
+            "price": "18000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Kuluyuk Pedas WBM - Bites",
+          "offers": {
+            "@type": "Offer",
+            "price": "35000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Udang Goreng Tepung",
+          "offers": {
+            "@type": "Offer",
+            "price": "45000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Chicken Karaage",
+          "offers": {
+            "@type": "Offer",
+            "price": "40000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Chicken Wings",
+          "offers": {
+            "@type": "Offer",
+            "price": "38000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Korean Fried Chicken",
+          "offers": {
+            "@type": "Offer",
+            "price": "38000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Fish & Chips",
+          "offers": {
+            "@type": "Offer",
+            "price": "28000",
+            "priceCurrency": "IDR"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "MenuSection",
+      "name": "Western - Burger",
+      "hasMenuItem": [
+        {
+          "@type": "MenuItem",
+          "name": "Crispy Chicken Burger",
+          "offers": {
+            "@type": "Offer",
+            "price": "45000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Chicken Burger",
+          "offers": {
+            "@type": "Offer",
+            "price": "40000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Beef Cheese Burger",
+          "offers": {
+            "@type": "Offer",
+            "price": "45000",
+            "priceCurrency": "IDR"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "MenuSection",
+      "name": "Western - Grilled",
+      "hasMenuItem": [
+        {
+          "@type": "MenuItem",
+          "name": "Grilled Tuna Steak",
+          "offers": {
+            "@type": "Offer",
+            "price": "85000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Grilled Beef Tenderloin Steak",
+          "offers": {
+            "@type": "Offer",
+            "price": "105000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Grilled Sirloin Steak",
+          "offers": {
+            "@type": "Offer",
+            "price": "90000",
+            "priceCurrency": "IDR"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "MenuSection",
+      "name": "Western - Main",
+      "hasMenuItem": [
+        {
+          "@type": "MenuItem",
+          "name": "Chicken Parmigiana",
+          "offers": {
+            "@type": "Offer",
+            "price": "52000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Chicken Gordon Bleu",
+          "offers": {
+            "@type": "Offer",
+            "price": "50000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Grill Chicken Mushroom",
+          "offers": {
+            "@type": "Offer",
+            "price": "55000",
+            "priceCurrency": "IDR"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "MenuSection",
+      "name": "Western - Pasta",
+      "hasMenuItem": [
+        {
+          "@type": "MenuItem",
+          "name": "Spaghetty Grilled Chicken",
+          "offers": {
+            "@type": "Offer",
+            "price": "40000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Spaghetty Aglio Olio",
+          "offers": {
+            "@type": "Offer",
+            "price": "38000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Spaghetty Creamy Mushroom",
+          "offers": {
+            "@type": "Offer",
+            "price": "45000",
+            "priceCurrency": "IDR"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "MenuSection",
+      "name": "Western - Pizza",
+      "hasMenuItem": [
+        {
+          "@type": "MenuItem",
+          "name": "Margarita Pizza",
+          "offers": {
+            "@type": "Offer",
+            "price": "45000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "BBQ Chicken Pizza",
+          "offers": {
+            "@type": "Offer",
+            "price": "57000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Seafood Pizza",
+          "offers": {
+            "@type": "Offer",
+            "price": "60000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Pizza Peperoncinho",
+          "offers": {
+            "@type": "Offer",
+            "price": "57000",
+            "priceCurrency": "IDR"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "MenuSection",
+      "name": "Western - Salad",
+      "hasMenuItem": [
+        {
+          "@type": "MenuItem",
+          "name": "Gado Gado",
+          "offers": {
+            "@type": "Offer",
+            "price": "30000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Mango Chicken Salad",
+          "offers": {
+            "@type": "Offer",
+            "price": "44000",
+            "priceCurrency": "IDR"
+          }
+        },
+        {
+          "@type": "MenuItem",
+          "name": "Grill Chicken Tenderloin Salad",
+          "offers": {
+            "@type": "Offer",
+            "price": "45000",
+            "priceCurrency": "IDR"
+          }
+        }
+      ]
+    }
+  ]
+}
   </script>
-
   <style>
     body {
-      font-family: "Segoe UI", sans-serif;
-      background: #f9f9f9;
+      font-family: 'Segoe UI', sans-serif;
+      background: #fafafa;
       color: #333;
+      max-width: 700px;
       margin: 2rem auto;
-      max-width: 600px;
+      padding: 1rem;
       line-height: 1.6;
     }
-    h1, h2 { text-align: center; }
+    h1, h2 {
+      text-align: center;
+      color: #444;
+    }
     section {
       background: #fff;
       padding: 1rem 1.5rem;
-      margin-bottom: 1.5rem;
+      margin: 1.2rem 0;
       border-radius: 10px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      box-shadow: 0 2px 5px rgba(0,0,0,0.08);
     }
     .item {
       display: flex;
       justify-content: space-between;
-      margin: .5rem 0;
+      margin: .4rem 0;
+      font-size: 1rem;
     }
-    .desc {
+    .item span:last-child {
+      color: #555;
+      font-weight: 500;
+    }
+    footer {
+      text-align: center;
       font-size: .9rem;
-      color: #666;
+      color: #777;
+      margin-top: 2rem;
     }
   </style>
 </head>
 <body>
   <h1>WBM Kitchen & Coffee Menu</h1>
-
   <section>
-    <h2>Coffee & Beverages</h2>
-    <div class="item"><span>Cappuccino</span><span>Rp25.000</span></div>
-    <div class="desc">Espresso with steamed milk foam</div>
-    <div class="item"><span>Latte</span><span>Rp27.000</span></div>
-    <div class="desc">Espresso with steamed milk and a touch of foam</div>
-  </section>
+  <h2>Beer and Friend</h2>
+  <div class="item"><span>Lemon Beer</span><span>Rp28000</span></div>
+  <div class="item"><span>Soda Water</span><span>Rp11000</span></div>
+  <div class="item"><span>Fresh Coconut</span><span>Rp27000</span></div>
+  <div class="item"><span>Oatmilk</span><span>Rp15000</span></div>
+  <div class="item"><span>Amertaning Whiskey</span><span>Rp85000</span></div>
+  <div class="item"><span>Mineral Water</span><span>Rp7000</span></div>
+  <div class="item"><span>Coca Cola</span><span>Rp12000</span></div>
+  <div class="item"><span>Beer Bucket</span><span>Rp110000</span></div>
+  <div class="item"><span>Small Beer</span><span>Rp25000</span></div>
+</section>
+<section>
+  <h2>Bliss</h2>
+  <div class="item"><span>Red Summer</span><span>Rp22000</span></div>
+  <div class="item"><span>Green Forest</span><span>Rp22000</span></div>
+  <div class="item"><span>Sunset Queen</span><span>Rp19000</span></div>
+  <div class="item"><span>Spring Rain</span><span>Rp19000</span></div>
+  <div class="item"><span>Orange Squash</span><span>Rp20000</span></div>
+  <div class="item"><span>Lemon Squash</span><span>Rp20000</span></div>
+</section>
+<section>
+  <h2>Breakfast</h2>
+  <div class="item"><span>Pancake</span><span>Rp35000</span></div>
+  <div class="item"><span>Croissant Sandwich</span><span>Rp46000</span></div>
+  <div class="item"><span>Grano Milk</span><span>Rp42000</span></div>
+  <div class="item"><span>Smoothie Bowl</span><span>Rp40000</span></div>
+  <div class="item"><span>Complete Morning</span><span>Rp56000</span></div>
+  <div class="item"><span>Egg Your Way</span><span>Rp35000</span></div>
+  <div class="item"><span>Paket Mie Goreng Breakfast</span><span>Rp35000</span></div>
+  <div class="item"><span>Paket Nasi Goreng Breakfast</span><span>Rp35000</span></div>
+</section>
+<section>
+  <h2>Chinese Cuisine</h2>
+  <div class="item"><span>Sate Bumbu Kacang</span><span>Rp35000</span></div>
+  <div class="item"><span>Sate Plecing Bumbu Pedas</span><span>Rp35000</span></div>
+  <div class="item"><span>Kuluyuk Pedas WBM</span><span>Rp35000</span></div>
+  <div class="item"><span>Egg / Telur</span><span>Rp5000</span></div>
+  <div class="item"><span>Sapo Tahu (Vegan)</span><span>Rp32000</span></div>
+  <div class="item"><span>Sapo Tahu (Chicken)</span><span>Rp35000</span></div>
+  <div class="item"><span>Sapo Tahu (Pork)</span><span>Rp37000</span></div>
+  <div class="item"><span>Sapo Tahu (Seafood)</span><span>Rp41000</span></div>
+  <div class="item"><span>Ayam Sayur</span><span>Rp35000</span></div>
+  <div class="item"><span>Udang Asam Manis</span><span>Rp42000</span></div>
+  <div class="item"><span>Udang Pedas WBM</span><span>Rp38000</span></div>
+  <div class="item"><span>Koloke</span><span>Rp30000</span></div>
+  <div class="item"><span>Kolobak</span><span>Rp37000</span></div>
+  <div class="item"><span>Capcay (Vegan)</span><span>Rp22000</span></div>
+  <div class="item"><span>Capcay (Chicken)</span><span>Rp25000</span></div>
+  <div class="item"><span>Capcay (Pork)</span><span>Rp27000</span></div>
+  <div class="item"><span>Capcay (Seafood)</span><span>Rp30000</span></div>
+  <div class="item"><span>Bihun Goreng (Vegan)</span><span>Rp19000</span></div>
+  <div class="item"><span>Bihun Goreng (Chicken)</span><span>Rp24000</span></div>
+  <div class="item"><span>Bihun Goreng (Pork)</span><span>Rp26000</span></div>
+  <div class="item"><span>Bihun Goreng (Seafood)</span><span>Rp32000</span></div>
+  <div class="item"><span>Cah Sawi Hijau (Vegan)</span><span>Rp22000</span></div>
+  <div class="item"><span>Cah Sawi Hijau (Chicken)</span><span>Rp25000</span></div>
+  <div class="item"><span>Cah Sawi Hijau (Pork)</span><span>Rp27000</span></div>
+  <div class="item"><span>Cah Sawi Hijau (Seafood)</span><span>Rp30000</span></div>
+  <div class="item"><span>Bihun Kuah (Vegan)</span><span>Rp19000</span></div>
+  <div class="item"><span>Bihun Kuah (Chicken)</span><span>Rp24000</span></div>
+  <div class="item"><span>Bihun Kuah (Pork)</span><span>Rp26000</span></div>
+  <div class="item"><span>Bihun Kuah (Seafood)</span><span>Rp32000</span></div>
+  <div class="item"><span>Mie Kuah (Vegan)</span><span>Rp19000</span></div>
+  <div class="item"><span>Mie Kuah (Chicken)</span><span>Rp24000</span></div>
+  <div class="item"><span>Mie Kuah (Pork)</span><span>Rp26000</span></div>
+  <div class="item"><span>Mie Kuah (Seafood)</span><span>Rp32000</span></div>
+  <div class="item"><span>Fuyunghay (Vegan)</span><span>Rp19000</span></div>
+  <div class="item"><span>Fuyunghay (Chicken)</span><span>Rp23000</span></div>
+  <div class="item"><span>Fuyunghay (Pork)</span><span>Rp25000</span></div>
+  <div class="item"><span>Fuyunghay (Seafood)</span><span>Rp31000</span></div>
+  <div class="item"><span>Mie Goreng (Chicken)</span><span>Rp24000</span></div>
+  <div class="item"><span>Mie Goreng (Pork)</span><span>Rp26000</span></div>
+  <div class="item"><span>Mie Goreng (Seafood)</span><span>Rp32000</span></div>
+  <div class="item"><span>Mie Goreng (Vegie)</span><span>Rp19000</span></div>
+  <div class="item"><span>Nasi Goreng (Chicken)</span><span>Rp22000</span></div>
+  <div class="item"><span>Nasi Goreng (Pork)</span><span>Rp24000</span></div>
+  <div class="item"><span>Nasi Goreng (Seafood)</span><span>Rp30000</span></div>
+  <div class="item"><span>Nasi Goreng (Vegie)</span><span>Rp18000</span></div>
+</section>
+<section>
+  <h2>Coffee Bean Base</h2>
+  <div class="item"><span>Es Kopi Pandan Creamy</span><span>Rp29000</span></div>
+  <div class="item"><span>Es Kopi Susu Gula Aren Creamy</span><span>Rp29000</span></div>
+  <div class="item"><span>Mocha Brown Sugar (Iced)</span><span>Rp27000</span></div>
+  <div class="item"><span>Mochaccino (Hot)</span><span>Rp25000</span></div>
+  <div class="item"><span>Mochaccino (Iced)</span><span>Rp27000</span></div>
+  <div class="item"><span>Affogato (Iced)</span><span>Rp27000</span></div>
+  <div class="item"><span>Flat White (Hot)</span><span>Rp25000</span></div>
+  <div class="item"><span>Long Black (Hot)</span><span>Rp20000</span></div>
+  <div class="item"><span>Long Black (Iced)</span><span>Rp25000</span></div>
+  <div class="item"><span>Caramel Macchiato (Iced)</span><span>Rp27000</span></div>
+  <div class="item"><span>Macchiato (Hot)</span><span>Rp20000</span></div>
+  <div class="item"><span>Cappuccino (Hot)</span><span>Rp23000</span></div>
+  <div class="item"><span>Cappuccino (Iced)</span><span>Rp25000</span></div>
+  <div class="item"><span>Caramel Latte (Hot)</span><span>Rp25000</span></div>
+  <div class="item"><span>Caramel Latte (Iced)</span><span>Rp27000</span></div>
+  <div class="item"><span>Hazelnut Latte (Hot)</span><span>Rp25000</span></div>
+  <div class="item"><span>Hazelnut Latte (Iced)</span><span>Rp27000</span></div>
+  <div class="item"><span>Vanilla Latte (Hot)</span><span>Rp25000</span></div>
+  <div class="item"><span>Vanilla Latte (Iced)</span><span>Rp27000</span></div>
+  <div class="item"><span>Cafe Latte (Hot)</span><span>Rp23000</span></div>
+  <div class="item"><span>Cafe Latte (Iced)</span><span>Rp25000</span></div>
+  <div class="item"><span>Americano (Hot)</span><span>Rp22000</span></div>
+  <div class="item"><span>Americano (Iced)</span><span>Rp25000</span></div>
+  <div class="item"><span>Espresso (Hot)</span><span>Rp20000</span></div>
+</section>
+<section>
+  <h2>Dessert and Pastry</h2>
+  <div class="item"><span>WBM Sweet Toast</span><span>Rp23000</span></div>
+  <div class="item"><span>Gelato</span><span>Rp25000</span></div>
+  <div class="item"><span>Choco Lava Croissant</span><span>Rp22000</span></div>
+  <div class="item"><span>Chocolate Sliced Cake</span><span>Rp27000</span></div>
+  <div class="item"><span>Butter Dannish Cinnamon</span><span>Rp18000</span></div>
+  <div class="item"><span>Almond Butter Croissant</span><span>Rp22000</span></div>
+  <div class="item"><span>Plain Butter Croissant</span><span>Rp15000</span></div>
+  <div class="item"><span>Fruits Salad</span><span>Rp38000</span></div>
+  <div class="item"><span>Plain Sliced Fruit</span><span>Rp30000</span></div>
+  <div class="item"><span>Croissant Ice Cream</span><span>Rp26000</span></div>
+  <div class="item"><span>Ice Cream Scoop</span><span>Rp15000</span></div>
+  <div class="item"><span>Pisang Goreng with Ice Cream</span><span>Rp30000</span></div>
+  <div class="item"><span>Pisang Goreng</span><span>Rp22000</span></div>
+</section>
+<section>
+  <h2>Fruit and Tea Based</h2>
+  <div class="item"><span>Orange Juice</span><span>Rp20000</span></div>
+  <div class="item"><span>Lemon Tea</span><span>Rp20000</span></div>
+  <div class="item"><span>Strawberry Juice</span><span>Rp35000</span></div>
+  <div class="item"><span>Lychee Tea</span><span>Rp20000</span></div>
+  <div class="item"><span>Iced Tea</span><span>Rp12000</span></div>
+  <div class="item"><span>Hot Tea</span><span>Rp12000</span></div>
+  <div class="item"><span>Avocado Juice</span><span>Rp27000</span></div>
+  <div class="item"><span>Dragon Fruit Juice</span><span>Rp22000</span></div>
+  <div class="item"><span>Pineapple Juice</span><span>Rp22000</span></div>
+  <div class="item"><span>Melon Juice</span><span>Rp22000</span></div>
+  <div class="item"><span>Watermelon Juice</span><span>Rp22000</span></div>
+  <div class="item"><span>Mango Juice</span><span>Rp27000</span></div>
+</section>
+<section>
+  <h2>Non Coffee</h2>
+  <div class="item"><span>WBM Pandan Creamy Siffon</span><span>Rp35000</span></div>
+  <div class="item"><span>Vanilla Milkshake</span><span>Rp32000</span></div>
+  <div class="item"><span>Taro (Hot)</span><span>Rp23000</span></div>
+  <div class="item"><span>Taro (Iced)</span><span>Rp25000</span></div>
+  <div class="item"><span>Strawberry Milkshake</span><span>Rp32000</span></div>
+  <div class="item"><span>Red Velvet (Hot)</span><span>Rp23000</span></div>
+  <div class="item"><span>Red Velvet (Iced)</span><span>Rp25000</span></div>
+  <div class="item"><span>Matcha (Hot)</span><span>Rp23000</span></div>
+  <div class="item"><span>Matcha (Iced)</span><span>Rp25000</span></div>
+  <div class="item"><span>Chocolate (Hot)</span><span>Rp23000</span></div>
+  <div class="item"><span>Chocolate (Iced)</span><span>Rp25000</span></div>
+  <div class="item"><span>Pandan Creamy Siffon</span><span>Rp35000</span></div>
+  <div class="item"><span>Salted Caramel Ice</span><span>Rp25000</span></div>
+  <div class="item"><span>Chocolate Milkshake</span><span>Rp32000</span></div>
+  <div class="item"><span>Taro Milkshake</span><span>Rp32000</span></div>
+</section>
+<section>
+  <h2>Side Dish</h2>
+  <div class="item"><span>Kerupuk</span><span>Rp2000</span></div>
+  <div class="item"><span>French Fries (Original)</span><span>Rp20000</span></div>
+  <div class="item"><span>French Fries (Cheesy)</span><span>Rp28000</span></div>
+  <div class="item"><span>Nasi Putih</span><span>Rp7000</span></div>
+</section>
+<section>
+  <h2>Take Away Charge</h2>
+  <div class="item"><span>Take Away Charge (Take Away Box Reguler)</span><span>Rp1500</span></div>
+  <div class="item"><span>Take Away Charge (Take Away Box Pizza)</span><span>Rp3000</span></div>
+  <div class="item"><span>Take Away Charge (Large Cup)</span><span>Rp2000</span></div>
+  <div class="item"><span>Take Away Charge (Hot Cup)</span><span>Rp1500</span></div>
+</section>
+<section>
+  <h2>Western - Bites</h2>
+  <div class="item"><span>Spring Roll</span><span>Rp18000</span></div>
+  <div class="item"><span>Kuluyuk Pedas WBM - Bites</span><span>Rp35000</span></div>
+  <div class="item"><span>Udang Goreng Tepung</span><span>Rp45000</span></div>
+  <div class="item"><span>Chicken Karaage</span><span>Rp40000</span></div>
+  <div class="item"><span>Chicken Wings</span><span>Rp38000</span></div>
+  <div class="item"><span>Korean Fried Chicken</span><span>Rp38000</span></div>
+  <div class="item"><span>Fish &amp; Chips</span><span>Rp28000</span></div>
+</section>
+<section>
+  <h2>Western - Burger</h2>
+  <div class="item"><span>Crispy Chicken Burger</span><span>Rp45000</span></div>
+  <div class="item"><span>Chicken Burger</span><span>Rp40000</span></div>
+  <div class="item"><span>Beef Cheese Burger</span><span>Rp45000</span></div>
+</section>
+<section>
+  <h2>Western - Grilled</h2>
+  <div class="item"><span>Grilled Tuna Steak</span><span>Rp85000</span></div>
+  <div class="item"><span>Grilled Beef Tenderloin Steak</span><span>Rp105000</span></div>
+  <div class="item"><span>Grilled Sirloin Steak</span><span>Rp90000</span></div>
+</section>
+<section>
+  <h2>Western - Main</h2>
+  <div class="item"><span>Chicken Parmigiana</span><span>Rp52000</span></div>
+  <div class="item"><span>Chicken Gordon Bleu</span><span>Rp50000</span></div>
+  <div class="item"><span>Grill Chicken Mushroom</span><span>Rp55000</span></div>
+</section>
+<section>
+  <h2>Western - Pasta</h2>
+  <div class="item"><span>Spaghetty Grilled Chicken</span><span>Rp40000</span></div>
+  <div class="item"><span>Spaghetty Aglio Olio</span><span>Rp38000</span></div>
+  <div class="item"><span>Spaghetty Creamy Mushroom</span><span>Rp45000</span></div>
+</section>
+<section>
+  <h2>Western - Pizza</h2>
+  <div class="item"><span>Margarita Pizza</span><span>Rp45000</span></div>
+  <div class="item"><span>BBQ Chicken Pizza</span><span>Rp57000</span></div>
+  <div class="item"><span>Seafood Pizza</span><span>Rp60000</span></div>
+  <div class="item"><span>Pizza Peperoncinho</span><span>Rp57000</span></div>
+</section>
+<section>
+  <h2>Western - Salad</h2>
+  <div class="item"><span>Gado Gado</span><span>Rp30000</span></div>
+  <div class="item"><span>Mango Chicken Salad</span><span>Rp44000</span></div>
+  <div class="item"><span>Grill Chicken Tenderloin Salad</span><span>Rp45000</span></div>
+</section>
 
-  <section>
-    <h2>Snacks & Pastries</h2>
-    <div class="item"><span>Croissant</span><span>Rp20.000</span></div>
-    <div class="desc">Buttery flaky pastry baked fresh daily</div>
-    <div class="item"><span>French Fries</span><span>Rp18.000</span></div>
-    <div class="desc">Crispy golden fries with special seasoning</div>
-  </section>
-
-  <footer style="text-align:center;font-size:.9rem;color:#777;">
-    © 2025 WBM Kitchen & Coffee
-  </footer>
+  <footer>© 2025 WBM Kitchen & Coffee</footer>
 </body>
 </html>
