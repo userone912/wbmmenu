@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WBM Kitchen & Coffee Menu</title>
+
+  <!-- Structured data for Google -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Menu",
+    "name": "WBM Kitchen & Coffee Menu",
+    "hasMenuSection": [
+      {
+        "@type": "MenuSection",
+        "name": "Coffee & Beverages",
+        "hasMenuItem": [
+          {
+            "@type": "MenuItem",
+            "name": "Cappuccino",
+            "description": "Espresso with steamed milk foam",
+            "offers": {
+              "@type": "Offer",
+              "price": "25.000",
+              "priceCurrency": "IDR"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "Latte",
+            "description": "Espresso with steamed milk and a touch of foam",
+            "offers": {
+              "@type": "Offer",
+              "price": "27.000",
+              "priceCurrency": "IDR"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "MenuSection",
+        "name": "Snacks & Pastries",
+        "hasMenuItem": [
+          {
+            "@type": "MenuItem",
+            "name": "Croissant",
+            "description": "Buttery flaky pastry baked fresh daily",
+            "offers": {
+              "@type": "Offer",
+              "price": "20.000",
+              "priceCurrency": "IDR"
+            }
+          },
+          {
+            "@type": "MenuItem",
+            "name": "French Fries",
+            "description": "Crispy golden fries with special seasoning",
+            "offers": {
+              "@type": "Offer",
+              "price": "18.000",
+              "priceCurrency": "IDR"
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    body {
+      font-family: "Segoe UI", sans-serif;
+      background: #f9f9f9;
+      color: #333;
+      margin: 2rem auto;
+      max-width: 600px;
+      line-height: 1.6;
+    }
+    h1, h2 { text-align: center; }
+    section {
+      background: #fff;
+      padding: 1rem 1.5rem;
+      margin-bottom: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .item {
+      display: flex;
+      justify-content: space-between;
+      margin: .5rem 0;
+    }
+    .desc {
+      font-size: .9rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <h1>WBM Kitchen & Coffee Menu</h1>
+
+  <section>
+    <h2>Coffee & Beverages</h2>
+    <div class="item"><span>Cappuccino</span><span>Rp25.000</span></div>
+    <div class="desc">Espresso with steamed milk foam</div>
+    <div class="item"><span>Latte</span><span>Rp27.000</span></div>
+    <div class="desc">Espresso with steamed milk and a touch of foam</div>
+  </section>
+
+  <section>
+    <h2>Snacks & Pastries</h2>
+    <div class="item"><span>Croissant</span><span>Rp20.000</span></div>
+    <div class="desc">Buttery flaky pastry baked fresh daily</div>
+    <div class="item"><span>French Fries</span><span>Rp18.000</span></div>
+    <div class="desc">Crispy golden fries with special seasoning</div>
+  </section>
+
+  <footer style="text-align:center;font-size:.9rem;color:#777;">
+    © 2025 WBM Kitchen & Coffee
+  </footer>
+</body>
+</html>
